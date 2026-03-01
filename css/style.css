@@ -409,7 +409,7 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 .card {
     background-color: var(--color-white);
     border-radius: var(--radius);
-    padding: 32px 24px;
+    padding: 20px 20px;
     box-shadow: var(--shadow);
     transition: transform var(--transition), box-shadow var(--transition);
 }
@@ -420,19 +420,17 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 }
 
 .card__icon {
-    font-size: 2rem;
-    color: var(--color-accent);
-    margin-bottom: 16px;
+    display: none;
 }
 
 .card__title {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .card__text {
     font-size: 0.95rem;
     color: var(--color-text-light);
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .card__link {
